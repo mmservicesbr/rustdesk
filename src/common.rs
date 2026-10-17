@@ -1177,7 +1177,7 @@ pub async fn do_check_software_update() -> hbb_common::ResultType<()> {
 
 #[inline]
 pub fn get_app_name() -> String {
-    hbb_common::config::APP_NAME.read().unwrap().clone()
+    "M&M Suporte Remoto".to_string()
 }
 
 #[inline]
